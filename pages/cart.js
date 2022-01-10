@@ -93,7 +93,7 @@ const Cart = ({ context }) => {
                             </div>
                           </div>
 
-                          <div className="flex items-center flex md:hidden">
+                          <div className="flex items-center flex">{/*md:hidden*/}
                             <Link href={`/product/${slugify(item.name)}`}>
                               <a>
                                 <Image className="w-32 m-0" src={item.image} alt={item.name} />

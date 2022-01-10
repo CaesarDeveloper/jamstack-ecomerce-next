@@ -27,11 +27,11 @@ const Home = ({ inventoryData = [], categories: categoryData = [] }) => {
             />
             <Center
               price="200"
-              title={inventory[2].name}
+              title="Popup SMSMasivos demo"/**inventory[2].name */
               link={`/product/${slugify(inventory[2].name)}`}
             />
             <Footer
-              designer="Jason Bourne"
+              designer="CaesarDev"
             />
           </div>
           <div className="flex flex-1 justify-center items-center relative">
